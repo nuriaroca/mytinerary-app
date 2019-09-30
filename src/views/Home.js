@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 class Home extends React.Component {
 
     render() {
@@ -12,7 +11,7 @@ class Home extends React.Component {
                 </div>
                 <div id="start-container">
                     <p className="start">Start browsing</p>
-                    <img className="circled-icon" src="../images/circled-right-2.png" alt="circled-icon"></img>
+                    <button to='/cities'><img className="circled-icon" src="../images/circled-right-2.png" alt="circled-icon"></img></button>
                     <p>Want to build your own MYtinerary?</p>
                     <div id="login">
                         <div className="login" >Log in</div>
